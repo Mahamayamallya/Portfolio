@@ -1,0 +1,108 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.bg-color1 {
+  background-color: #e3f4f4;
+}
+.bg-color2 {
+  background-color: #ffffff;
+}
+h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.profile {
+  text-align: center;
+  color: #66bfbf;
+}
+.profile span {
+  font-colorcolor: rgb(39, 41, 41);
+}
+.profile h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 58px;
+  padding-top: 100px;
+}
+.profile h4 {
+  margin-top: 0;
+
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+.profile > div {
+  width: 50%;
+  margin: auto;
+  color: rgba(42, 45, 45, 0.902);
+  font-family: "Merriweather", serif;
+  padding-bottom: 70px;
+}
+.profile a {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #0a66c2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.profile a:hover {
+  background-color: #e3f4f4;
+  border: #0a66c2 solid 1px;
+  color: rgba(42, 45, 45, 0.902);
+}
+
+/**********************************CARD***********************************/
+.card-group > .card {
+  background-color: #fff;
+  border: rgb(216, 215, 215) solid 1px !important;
+  border-radius: 0%;
+  font-family: "Merriweather", serif;
+  margin: 0 20px;
+}
+
+.bg-white > h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 28px;
+}
+
+.card-group {
+  margin-bottom: 70px;
+}
+.card > .description > p {
+  padding: 10px;
+  color: #515151;
+}
+
+.card > .btn-group > a {
+  border-radius: 5%;
+  font-size: 14px;
+}
+/*******************************************FOOTER********************************************/
+footer {
+  text-align: center;
+  background-color: #ccd3ca;
+  padding: 25px 0;
+  color: #333333;
+}
+footer > h4 {
+  margin: 30px auto;
+}
+footer i {
+  margin-right: 10px;
+}
+.contact-details > a {
+  margin: 20px;
+  text-decoration: none;
+  color: #1a5276;
+}
+.contact-details > a:hover {
+  text-decoration: underline;
+}
+
+/*************************************MEDIA QUERY ***********************************/
+@media only screen and (max-width: 600px) {
+  .profile > div {
+    width: 100%;
+    padding: 0 20px 40px 20px;
+  }
+}
